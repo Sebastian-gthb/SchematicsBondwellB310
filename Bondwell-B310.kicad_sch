@@ -1,0 +1,952 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "13e1b2d7-f884-49d2-b040-3e7f2342e8e0")
+	(paper "A3")
+	(lib_symbols)
+	(text_box "IC25\n74LS244D\n(Levelshifter RGB?)"
+		(exclude_from_sim no)
+		(at 123.19 39.37 0)
+		(size 17.78 10.16)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 0 255 0 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "00b3871a-6a67-4039-90fe-e41bb5689c02")
+	)
+	(text_box "IC21\nMBL8742H\n(Keyboard Controller)"
+		(exclude_from_sim no)
+		(at 184.15 165.1 0)
+		(size 67.31 15.24)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 0 255 0 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "136475fe-3a94-4388-9db2-f5b072bd5912")
+	)
+	(text_box "IC19\nTACT82302PB\n(ChipSet Memory Control Unit)"
+		(exclude_from_sim no)
+		(at 195.58 81.28 0)
+		(size 33.02 29.21)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "13b7f799-a918-4406-a260-883da8d7e213")
+	)
+	(text_box "IC23\nTACT82303PB\n(ChipSet Peripheral Control Unit)"
+		(exclude_from_sim no)
+		(at 153.67 34.29 0)
+		(size 31.75 30.48)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "1fa7e740-44fb-426a-958d-8d19e0bbb43e")
+	)
+	(text_box "IC29\nMC145406P\n(Level Shifter COM2)"
+		(exclude_from_sim no)
+		(at 93.98 38.1 0)
+		(size 22.86 7.62)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 0 255 0 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "2f01c57d-095d-47e0-8193-9e229aeff229")
+	)
+	(text_box "IC44\nICL7660\n(neg. Volt für COM)"
+		(exclude_from_sim no)
+		(at 72.39 25.4 0)
+		(size 12.7 7.62)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 0 255 0 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "30573526-6f4f-450f-b97f-44e2cd87f0e7")
+	)
+	(text_box "J9\nKeayboard Conector"
+		(exclude_from_sim no)
+		(at 254 157.48 0)
+		(size 39.37 6.35)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 200 200 200 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "364361da-6a90-4800-8bf6-45e214fb2cd6")
+	)
+	(text_box "IC33\nMC145406P\n(Level Shifter COM1)"
+		(exclude_from_sim no)
+		(at 43.18 38.1 0)
+		(size 22.86 7.62)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 0 255 0 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "424a1c57-0ea5-4ad0-ada4-37749f19bf1b")
+	)
+	(text_box "IC28\nPC74HC244T"
+		(exclude_from_sim no)
+		(at 115.57 95.25 0)
+		(size 16.51 10.16)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 0 255 0 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "4a727887-07b0-4864-bd5d-716198414c90")
+	)
+	(text_box "IC34\nVLSI\n8950BT\nVL16C452-QC\n(Serial + Parallel Controller)"
+		(exclude_from_sim no)
+		(at 35.56 80.01 0)
+		(size 27.94 25.4)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 0 255 0 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "4b1f85d5-cdc2-4326-acac-83fb466092a6")
+	)
+	(text_box "IC22\nDP8473V\n(FDD Controller)"
+		(exclude_from_sim no)
+		(at 194.31 46.99 0)
+		(size 19.05 17.78)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 0 255 0 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "4dfb9560-b6d8-4b5e-8203-75665c84a834")
+	)
+	(text_box "IC6\n5M44256BJ-8\nRAM"
+		(exclude_from_sim no)
+		(at 289.56 48.26 0)
+		(size 17.78 8.89)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 0 255 0 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "56fab203-cfab-40a4-8fd3-613c1617d746")
+	)
+	(text_box "IC2\n5M44256BJ-8\nRAM"
+		(exclude_from_sim no)
+		(at 311.15 59.69 0)
+		(size 17.78 8.89)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 0 255 0 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "5851bb01-9fe2-4efe-ae55-4d5b8e664124")
+	)
+	(text_box "IC26\nYAMAHA\nV6366C-F\n(CGA Grafikkontroler)"
+		(exclude_from_sim no)
+		(at 123.19 63.5 0)
+		(size 25.4 17.78)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 0 255 0 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "5ba0dd24-ce06-40d5-b001-534af9fd6a37")
+	)
+	(text_box "FDD Connector"
+		(exclude_from_sim no)
+		(at 191.77 27.94 0)
+		(size 45.72 6.35)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 200 200 200 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "68544f41-558f-4b36-96aa-fab117e63f26")
+	)
+	(text_box "IC4\n5M44256BJ-8\nRAM"
+		(exclude_from_sim no)
+		(at 311.15 82.55 0)
+		(size 17.78 8.89)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 0 255 0 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "6c8627e6-deeb-41cd-b2cd-07f8a696ba0f")
+	)
+	(text_box "IC27\nPC74HC244T"
+		(exclude_from_sim no)
+		(at 139.7 95.25 0)
+		(size 16.51 10.16)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 0 255 0 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "7221d9b3-8a9b-438a-980f-1b4483a271a7")
+	)
+	(text_box "IC5\nTL497ACN\n(neg. Volt LCD)"
+		(exclude_from_sim no)
+		(at 303.53 157.48 0)
+		(size 22.86 7.62)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 0 255 0 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "78c72c86-a7e1-402e-b23a-5ae8f58a3a51")
+	)
+	(text_box "IC30\nST M27C256B-20FI\n(BIOS ROM LOW Byte)"
+		(exclude_from_sim no)
+		(at 68.58 57.15 0)
+		(size 39.37 13.97)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 0 255 0 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "7b649f8e-f24d-4e2b-8512-8bab07b7adb3")
+	)
+	(text_box "J23\nCMOS Batt."
+		(exclude_from_sim no)
+		(at 143.51 39.37 90)
+		(size 6.35 12.7)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 200 200 200 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "84f9b22e-6875-4b81-9f13-4f36fcc499ac")
+	)
+	(text_box "IC14\nMM74HC154N\n(4-to-16 line decod./demultipl.)"
+		(exclude_from_sim no)
+		(at 254 172.72 0)
+		(size 36.83 7.62)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 0 255 0 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "881db088-8ecd-48d5-8549-032fcbbb840a")
+	)
+	(text_box "IC20\nADC0804LCN\n(AD Wandler)"
+		(exclude_from_sim no)
+		(at 201.93 152.4 0)
+		(size 33.02 7.62)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 0 255 0 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "8abe195d-9a67-4d19-8b45-e07800b6039b")
+	)
+	(text_box "IC24\nBondwell\nGA310"
+		(exclude_from_sim no)
+		(at 162.56 81.28 0)
+		(size 19.05 24.13)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "9879a6b2-fa46-43cc-a415-4a9710552330")
+	)
+	(text_box "IC9\n5M44256BJ-8\nRAM"
+		(exclude_from_sim no)
+		(at 289.56 82.55 0)
+		(size 17.78 8.89)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 0 255 0 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "9dc8b16d-6049-4846-8e35-7c72b3a14fb3")
+	)
+	(text_box "IC18\n31A-5101\n(Active Delay Line)"
+		(exclude_from_sim no)
+		(at 234.95 53.34 90)
+		(size 11.43 21.59)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 0 255 0 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "a4ea970c-8322-488e-bbf6-2a7e867b265c")
+	)
+	(text_box "IC31\nST M27C256B-20FI\n(BIOS ROM HIGH Byte)"
+		(exclude_from_sim no)
+		(at 68.58 76.2 0)
+		(size 39.37 13.97)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 0 255 0 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "a59181f7-5f6a-4ffc-ab58-ed641fe4f179")
+	)
+	(text_box "IC7\n5M44256BJ-8\nRAM"
+		(exclude_from_sim no)
+		(at 289.56 59.69 0)
+		(size 17.78 8.89)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 0 255 0 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "b4907c46-2a4e-4ff9-a36d-cf09915a269b")
+	)
+	(text_box "IC17\nIntel\nN80C286-12\n(CPU)"
+		(exclude_from_sim no)
+		(at 236.22 86.36 0)
+		(size 26.67 24.13)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 0 255 0 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "bf824bc9-57b7-44d0-8b9d-a9b781bbf97f")
+	)
+	(text_box "IC32\nOKI\nM51257L-10\n(32,768-Word x 8-Bit CMOS static RAM - Video RAM?)"
+		(exclude_from_sim no)
+		(at 68.58 95.25 0)
+		(size 39.37 15.24)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 0 255 0 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "cd85798c-a444-43b9-a84c-ce1f954ac1dc")
+	)
+	(text_box "J7\nSpeaker"
+		(exclude_from_sim no)
+		(at 295.91 154.94 90)
+		(size 6.35 12.7)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 200 200 200 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "d1256aff-32ad-4ab3-b95e-9e779317b028")
+	)
+	(text_box "IC8\n5M44256BJ-8\nRAM"
+		(exclude_from_sim no)
+		(at 289.56 71.12 0)
+		(size 17.78 8.89)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 0 255 0 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "dc8a7a49-cf66-4489-96bb-2d0e3200930c")
+	)
+	(text_box "IC12\nTACT82301PB\n(ChipSet System Unit)"
+		(exclude_from_sim no)
+		(at 250.19 44.45 0)
+		(size 34.29 30.48)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "e1ef2048-240b-4dc0-9df0-473f776a9f9c")
+	)
+	(text_box "IC3\n5M44256BJ-8\nRAM"
+		(exclude_from_sim no)
+		(at 311.15 71.12 0)
+		(size 17.78 8.89)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 0 255 0 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "e5a6e357-2b42-45d8-b943-df5cd11e3177")
+	)
+	(text_box "IC43\nDS14C89AN\n(Level Shifter COM1+2?)"
+		(exclude_from_sim no)
+		(at 68.58 38.1 0)
+		(size 22.86 7.62)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 0 255 0 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "e877ebb6-3186-4b84-b85d-89cdf37f81fe")
+	)
+	(text_box "IC1\n5M44256BJ-8\nRAM"
+		(exclude_from_sim no)
+		(at 311.15 48.26 0)
+		(size 17.78 8.89)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 0 255 0 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "f39e744a-2cae-4d75-813c-743b2f565d23")
+	)
+	(text_box "IDE Connector"
+		(exclude_from_sim no)
+		(at 22.86 25.4 90)
+		(size 6.35 60.96)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 200 200 200 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "f85aa559-c632-4d39-bf79-40a343f4f22d")
+	)
+	(polyline
+		(pts
+			(xy 16.51 16.51) (xy 331.47 16.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56aeee36-ee87-46c9-b03b-942adb13eaab")
+	)
+	(polyline
+		(pts
+			(xy 16.51 16.51) (xy 16.51 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6224854c-cf17-4603-b7fe-053a9dc64568")
+	)
+	(polyline
+		(pts
+			(xy 176.53 116.84) (xy 16.51 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9dcff761-fbfe-468c-b7de-e0a4d1b0569a")
+	)
+	(polyline
+		(pts
+			(xy 176.53 207.01) (xy 176.53 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b918cb8b-5331-4c6b-940b-30f20100c059")
+	)
+	(polyline
+		(pts
+			(xy 331.47 16.51) (xy 331.47 207.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bff87304-b356-4232-a272-6acb040b7ec6")
+	)
+	(polyline
+		(pts
+			(xy 331.47 207.01) (xy 176.53 207.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eafabe71-1cdc-47cf-a88a-0d9b9e35b02c")
+	)
+	(sheet
+		(at 97.79 134.62)
+		(size 54.61 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "81503069-f50b-43af-a29f-476cb5fd2882")
+		(property "Sheetname" "Signalverbindungen"
+			(at 97.79 133.9084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Signalverbindungen.kicad_sch"
+			(at 97.79 158.0646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Bondwell-B310"
+				(path "/13e1b2d7-f884-49d2-b040-3e7f2342e8e0"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 29.21 167.64)
+		(size 57.15 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ac46e1ab-3b16-4a65-ad9a-968aa47d8074")
+		(property "Sheetname" "Keyboard Controller"
+			(at 29.21 166.9284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "KeyboardController.kicad_sch"
+			(at 29.21 188.5446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Bondwell-B310"
+				(path "/13e1b2d7-f884-49d2-b040-3e7f2342e8e0"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 29.21 134.62)
+		(size 57.15 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "dad88825-6095-47ad-a423-88aec2e58fa8")
+		(property "Sheetname" "Power Supply"
+			(at 29.21 133.9084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PowerSupply.kicad_sch"
+			(at 29.21 158.0646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Bondwell-B310"
+				(path "/13e1b2d7-f884-49d2-b040-3e7f2342e8e0"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
